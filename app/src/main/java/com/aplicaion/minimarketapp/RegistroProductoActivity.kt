@@ -11,7 +11,7 @@ import androidx.camera.core.resolutionselector.ResolutionSelector
 import androidx.camera.core.resolutionselector.ResolutionStrategy
 import androidx.camera.lifecycle.ProcessCameraProvider
 import androidx.core.content.ContextCompat
-import com.aplicaion.minimarketapp.databinding.ActivityRegistroProductoBinding
+import com.aplicaion.minimarketapp.databinding.ActivityScannerBinding
 import com.google.mlkit.vision.barcode.BarcodeScanner
 import com.google.mlkit.vision.barcode.BarcodeScanning
 import com.google.mlkit.vision.barcode.common.Barcode
@@ -21,13 +21,13 @@ import java.util.concurrent.Executors
 
 class RegistroProductoActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityRegistroProductoBinding
+    private lateinit var binding: ActivityScannerBinding
     private lateinit var cameraExecutor: ExecutorService
     private lateinit var barcodeScanner: BarcodeScanner
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityRegistroProductoBinding.inflate(layoutInflater)
+        binding = ActivityScannerBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         setSupportActionBar(binding.toolbar)
