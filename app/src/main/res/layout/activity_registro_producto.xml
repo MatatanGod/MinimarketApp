@@ -266,13 +266,6 @@
                         app:boxStrokeColor="#FFC107"
                         app:hintTextColor="#FFC107">
 
-                        <AutoCompleteTextView
-                            android:id="@+id/spinnerCategoria"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:hint="Seleccionar"
-                            android:inputType="none"
-                            android:textSize="13sp" />
 
                     </com.google.android.material.textfield.TextInputLayout>
 
