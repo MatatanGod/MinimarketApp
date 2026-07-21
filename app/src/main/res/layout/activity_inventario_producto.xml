@@ -19,13 +19,17 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="#FFFFFF"
-            app:navigationIcon="@drawable/ic_arrow_back"
+
             app:navigationIconTint="#1A1A2E"
             app:title="Inventario de Productos"
             app:titleCentered="true"
             app:titleTextColor="#1A1A2E" />
 
-        <!-- Chips de categorías -->
+        <!-- app:navigationIcon="@drawable/ic_arrow_back"
+        app:chipBackgroundColor="@color/chip_bg_selector"
+        app:chipBackgroundColor="@color/chip_bg_selector"
+        app:chipBackgroundColor="@color/chip_bg_selector"
+        app:chipBackgroundColor="@color/chip_bg_selector"-->
         <HorizontalScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -48,7 +52,7 @@
                     android:textSize="12sp"
                     android:checked="true"
                     style="@style/Widget.MaterialComponents.Chip.Filter"
-                    app:chipBackgroundColor="@color/chip_bg_selector"
+
                     app:chipStrokeColor="#E2E8F0"
                     app:chipStrokeWidth="1dp" />
 
@@ -59,7 +63,7 @@
                     android:text="Lácteos"
                     android:textSize="12sp"
                     style="@style/Widget.MaterialComponents.Chip.Filter"
-                    app:chipBackgroundColor="@color/chip_bg_selector"
+
                     app:chipStrokeColor="#E2E8F0"
                     app:chipStrokeWidth="1dp" />
 
@@ -70,7 +74,7 @@
                     android:text="Abarrotes"
                     android:textSize="12sp"
                     style="@style/Widget.MaterialComponents.Chip.Filter"
-                    app:chipBackgroundColor="@color/chip_bg_selector"
+
                     app:chipStrokeColor="#E2E8F0"
                     app:chipStrokeWidth="1dp" />
 
@@ -81,7 +85,7 @@
                     android:text="Verduras"
                     android:textSize="12sp"
                     style="@style/Widget.MaterialComponents.Chip.Filter"
-                    app:chipBackgroundColor="@color/chip_bg_selector"
+
                     app:chipStrokeColor="#E2E8F0"
                     app:chipStrokeWidth="1dp" />
 
@@ -245,7 +249,7 @@
         android:background="#4CAF50"
         app:itemIconTint="#FFFFFF"
         app:itemTextColor="#FFFFFF"
-        app:itemActiveIndicatorColor="#33FFFFFF"
+
         app:labelVisibilityMode="unlabeled"
         app:menu="@menu/bottom_nav_menu" />
 

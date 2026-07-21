@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:padding="16dp"
     android:gravity="center"
-    android:background="@drawable/bg_card_green">
+    >
 
     <ImageView
         android:layout_width="48dp"
@@ -23,12 +23,10 @@
         android:textColor="@color/black"
         android:layout_marginBottom="12dp"/>
 
-    <!-- QR placeholder, reemplazar con QR real -->
     <ImageView
         android:id="@+id/imgQr"
         android:layout_width="160dp"
         android:layout_height="160dp"
-        android:src="@drawable/ic_qr_placeholder"
         android:scaleType="fitCenter"
         android:background="@color/white"
         android:padding="8dp"

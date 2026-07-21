@@ -85,7 +85,6 @@
 
         </LinearLayout>
 
-        <!-- CHIPS DE CATEGORÍAS (scroll horizontal) -->
         <HorizontalScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -98,7 +97,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:gravity="center_vertical"
-                android:gap="8dp">
+                >
 
                 <!-- Chip: Todos -->
                 <com.google.android.material.chip.Chip

@@ -40,7 +40,7 @@ android {
 }
 
 dependencies {
-    implementation("com.google.android.material:material:1.14.0")
+    implementation("com.google.android.material:material:1.12.0")
 
     implementation(libs.androidx.activity.ktx)
     implementation(libs.androidx.core.ktx)
@@ -53,7 +53,7 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
     implementation("com.google.mlkit:barcode-scanning:17.3.0")
     // Camera
-    implementation("androidx.camera:camera-core: 1.4.1")
+    implementation("androidx.camera:camera-core:1.4.1")
     implementation("androidx.camera:camera-camera2:1.4.1")
     implementation("androidx.camera:camera-lifecycle:1.4.1")
     implementation("androidx.camera:camera-view:1.2.1")

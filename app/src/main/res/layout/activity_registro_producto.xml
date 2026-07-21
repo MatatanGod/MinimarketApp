@@ -575,7 +575,6 @@
         android:background="#4CAF50"
         app:itemIconTint="#FFFFFF"
         app:itemTextColor="#FFFFFF"
-        app:itemActiveIndicatorColor="#33FFFFFF"
         app:labelVisibilityMode="unlabeled"
         app:menu="@menu/bottom_nav_menu" />
 
