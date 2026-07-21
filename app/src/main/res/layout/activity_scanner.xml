@@ -8,7 +8,6 @@
     android:background="#F0F4F8"
     tools:context=".RegistroProductoActivity">
 
-    <!-- Header / AppBar -->
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"
         android:layout_width="match_parent"
@@ -30,7 +29,6 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <!-- Contenido principal con scroll -->
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -42,7 +40,6 @@
             android:layout_height="wrap_content"
             android:padding="20dp">
 
-            <!-- Card contenedor de la cámara -->
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/cameraCard"
                 android:layout_width="0dp"
@@ -60,7 +57,6 @@
                     android:layout_height="320dp"
                     android:background="#1E293B">
 
-                    <!-- Vista de cámara -->
                     <androidx.camera.view.PreviewView
                         android:id="@+id/previewView"
                         android:layout_width="0dp"
@@ -70,7 +66,6 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintEnd_toEndOf="parent" />
 
-                    <!-- Overlay: esquinas del visor -->
                     <View
                         android:id="@+id/cornerTopLeft"
                         android:layout_width="36dp"
@@ -111,7 +106,6 @@
                         android:layout_marginBottom="48dp"
                         android:layout_marginEnd="52dp" />
 
-                    <!-- Label inferior dentro de la cámara -->
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -131,7 +125,6 @@
 
             </com.google.android.material.card.MaterialCardView>
 
-            <!-- Card resultado del escaneo -->
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/resultCard"
                 android:layout_width="0dp"
@@ -152,7 +145,6 @@
                     android:padding="20dp"
                     android:background="#FFFFFF">
 
-                    <!-- Encabezado del resultado -->
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -178,7 +170,6 @@
 
                     </LinearLayout>
 
-                    <!-- Divider -->
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="6dp"
@@ -200,7 +191,6 @@
                         android:textColorHint="#CBD5E1"
                          />
 
-                    <!-- Chip de tipo de código (opcional) -->
                     <com.google.android.material.chip.Chip
                         android:id="@+id/codeTypeChip"
                         android:layout_width="wrap_content"
@@ -221,7 +211,6 @@
 
             </com.google.android.material.card.MaterialCardView>
 
-            <!-- Botón Guardar -->
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnGuardar"
                 android:layout_width="0dp"
@@ -245,7 +234,6 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent" />
 
-            <!-- Botón secundario: Limpiar / Nuevo escaneo -->
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnLimpiar"
                 android:layout_width="0dp"
