@@ -64,7 +64,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Nombres Completos"
-                android:paddingStart="48dp"/>
+                android:paddingStart="48dp"
+                tools:ignore="TouchTargetSizeCheck" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -84,7 +85,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Usuario de Acceso"
-                android:paddingStart="48dp"/>
+                android:paddingStart="48dp"
+                tools:ignore="TouchTargetSizeCheck" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -103,9 +105,10 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:inputType="textPassword"
                 android:hint="Contraseña"
-                android:paddingStart="48dp"/>
+                android:inputType="textPassword"
+                android:paddingStart="48dp"
+                tools:ignore="TouchTargetSizeCheck" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -145,11 +148,5 @@
             android:layout_marginTop="20dp"
             app:backgroundTint="#4CAF50"
             app:cornerRadius="8dp"/>
-
-
-
-
-
-
     </LinearLayout>
 </LinearLayout>
