@@ -26,6 +26,11 @@ class inicio_sesion : AppCompatActivity() {
             var intent = Intent(this, registro_usuario::class.java)
             startActivity(intent)
         }
+        btnIngresar= findViewById(R.id.btnIngresar)
+        btnIngresar.setOnClickListener{
+            var intent = Intent(this,punto_venta::class.java)
+            startActivity(intent)
+        }
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())

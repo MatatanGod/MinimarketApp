@@ -28,8 +28,9 @@
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="Volver"
                 android:src="@drawable/icono_regresar_pantalla"
-                android:contentDescription="Volver" />
+                tools:ignore="TouchTargetSizeCheck" />
 
             <TextView
                 android:layout_width="0dp"
@@ -47,8 +48,9 @@
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="Filtrar"
                 android:src="@drawable/ic_filter"
-                android:contentDescription="Filtrar" />
+                tools:ignore="TouchTargetSizeCheck" />
 
         </LinearLayout>
 
@@ -102,54 +104,59 @@
                 <!-- Chip: Todos -->
                 <com.google.android.material.chip.Chip
                     android:id="@+id/chipTodos"
+                    style="@style/Widget.Material3.Chip.Filter"
                     android:layout_width="wrap_content"
-                    android:layout_height="32dp"
-                    android:text="Todos"
+                    android:layout_height="40dp"
                     android:checkable="true"
                     android:checked="true"
-                    style="@style/Widget.Material3.Chip.Filter" />
+                    android:text="Todos"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <!-- Chip: Abarrotes -->
                 <com.google.android.material.chip.Chip
                     android:id="@+id/chipAbarrotes"
+                    style="@style/Widget.Material3.Chip.Filter"
                     android:layout_width="wrap_content"
-                    android:layout_height="32dp"
-                    android:text="Abarrotes"
+                    android:layout_height="40dp"
                     android:checkable="true"
-                    style="@style/Widget.Material3.Chip.Filter" />
+                    android:text="Abarrotes"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <!-- Chip: Lácteos y Refrigerados -->
                 <com.google.android.material.chip.Chip
                     android:id="@+id/chipLacteos"
+                    style="@style/Widget.Material3.Chip.Filter"
                     android:layout_width="wrap_content"
-                    android:layout_height="32dp"
-                    android:text="Lácteos"
+                    android:layout_height="40dp"
                     android:checkable="true"
-                    style="@style/Widget.Material3.Chip.Filter" />
+                    android:text="Lácteos"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <!-- Chip: Bebidas y Licores -->
                 <com.google.android.material.chip.Chip
                     android:id="@+id/chipBebidas"
+                    style="@style/Widget.Material3.Chip.Filter"
                     android:layout_width="wrap_content"
-                    android:layout_height="32dp"
-                    android:text="Bebidas"
+                    android:layout_height="40dp"
                     android:checkable="true"
-                    style="@style/Widget.Material3.Chip.Filter" />
+                    android:text="Bebidas"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <!-- Chip: Limpieza del Hogar -->
                 <com.google.android.material.chip.Chip
                     android:id="@+id/chipLimpieza"
+                    style="@style/Widget.Material3.Chip.Filter"
                     android:layout_width="wrap_content"
-                    android:layout_height="32dp"
-                    android:text="Limpieza"
+                    android:layout_height="40dp"
                     android:checkable="true"
-                    style="@style/Widget.Material3.Chip.Filter" />
+                    android:text="Limpieza"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <!-- Chip: Snacks y Golosinas -->
                 <com.google.android.material.chip.Chip
                     android:id="@+id/chipSnacks"
                     android:layout_width="wrap_content"
-                    android:layout_height="32dp"
+                    android:layout_height="40dp"
                     android:text="Snacks"
                     android:checkable="true"
                     style="@style/Widget.Material3.Chip.Filter" />
@@ -189,9 +196,10 @@
 
             <ImageView
                 android:layout_width="24dp"
-                android:layout_height="24dp"
-                android:src="@drawable/ic_carrito"
-                android:contentDescription="Carrito" />
+                android:layout_height="wrap_content"
+                android:id="@+id/Carrito"
+                android:contentDescription="Carrito"
+                android:src="@drawable/ic_carrito" />
 
         </LinearLayout>
 
@@ -207,6 +215,7 @@
             <ImageView
                 android:layout_width="24dp"
                 android:layout_height="24dp"
+                android:id="@+id/Inventario"
                 android:src="@drawable/ic_inventario"
                 android:contentDescription="Inventario" />
 
@@ -224,6 +233,7 @@
             <ImageView
                 android:layout_width="24dp"
                 android:layout_height="24dp"
+                android:id="@+id/Historial"
                 android:src="@drawable/ic_historial"
                 android:contentDescription="Historial" />
 
@@ -241,6 +251,7 @@
             <ImageView
                 android:layout_width="24dp"
                 android:layout_height="24dp"
+                android:id="@+id/proveedor"
                 android:src="@drawable/ic_proveedores"
                 android:contentDescription="Proveedores" />
 

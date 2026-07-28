@@ -61,7 +61,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Ingrese su usuario"
-                android:paddingStart="48dp" />
+                android:paddingStart="48dp"
+                tools:ignore="TouchTargetSizeCheck" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -81,9 +82,10 @@
                 android:id="@+id/txtContraseña"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textPassword"
                 android:hint="Ingrese su contraseña"
-                android:paddingStart="48dp" />
+                android:inputType="textPassword"
+                android:paddingStart="48dp"
+                tools:ignore="TouchTargetSizeCheck" />
 
         </com.google.android.material.textfield.TextInputLayout>
 

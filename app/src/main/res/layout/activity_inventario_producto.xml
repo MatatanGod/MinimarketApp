@@ -2,6 +2,7 @@
 <androidx.coordinatorlayout.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F8F9FA">
@@ -208,10 +209,11 @@
                         android:id="@+id/etStockSumar"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="0"
-                        android:textSize="14sp"
                         android:gravity="center"
-                        android:inputType="number" />
+                        android:hint="0"
+                        android:inputType="number"
+                        android:textSize="14sp"
+                        tools:ignore="TouchTargetSizeCheck" />
 
                 </com.google.android.material.textfield.TextInputLayout>
 
